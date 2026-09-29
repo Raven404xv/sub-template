@@ -1,55 +1,66 @@
-📌 Шаблон подписки Sanaei / 3x-ui
+📌 Шаблон страницы подписки Sanaei / 3x-ui
 
-"🇮🇷 فارسی" (README.md)   |   "🇬🇧 English" (README.en.md)   |   🇷🇺 Русский
-
-Кастомный HTML-шаблон для страницы подписки Sanaei / 3x-ui.
+<a href="README.md">
+  <img src="https://flagcdn.com/24x18/ir.png" width="24"> فارسی
+</a>
+&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="README.en.md">
+  <img src="https://flagcdn.com/24x18/gb.png" width="24"> English
+</a>
+&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="README.ru.md">
+  <img src="https://flagcdn.com/24x18/ru.png" width="24"> Русский
+</a><br>Кастомный HTML-шаблон страницы подписки Sanaei / 3x-ui, созданный для быстрой установки и простого управления.
 
 ✨ Возможности
 
-- 🎨 Кастомная страница подписки
+- 🎨 Собственный дизайн страницы подписки
 - ⚙️ Совместимость с Sanaei / 3x-ui
-- 🚀 Установка одной командой
-- 💾 Автоматическое резервное копирование предыдущего шаблона
-- 🔄 Простое обновление
-- 🗑️ Простое удаление
+- 🚀 Установка и обновление одной командой
+- 💾 Автоматическое резервное копирование перед заменой шаблона
+- 🗑️ Простое удаление шаблона
 
 🚀 Установка
 
-Выполните следующую команду на сервере:
+Для установки шаблона выполните следующую команду на сервере:
 
-<pre>
+```
 bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh)
-</pre>Шаблон будет установлен в:
+```
+После установки шаблон будет находиться по следующему пути:
 
 <pre>
 /etc/3x-ui/sub_templates/xv/
-</pre>⚙️ Настройка панели
+</pre>⚙️ Активация шаблона
 
-После установки откройте Sanaei / 3x-ui и перейдите:
+После установки откройте панель Sanaei / 3x-ui и перейдите:
 
 <pre>
 Settings → Subscription → Information
-</pre>В поле Sub Theme Directory укажите:
+</pre>В поле Sub Theme Directory укажите следующий путь:
 
-<pre>
+```
 /etc/3x-ui/sub_templates/xv/
-</pre>После этого нажмите Save.
+```
+После этого сохраните настройки.
 
 🔄 Обновление
 
-Чтобы установить последнюю версию шаблона, снова выполните команду установки:
+Чтобы обновить шаблон и получить последнюю версию, повторно выполните команду установки:
 
-<pre>
+```
 bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh)
-</pre>Перед заменой предыдущая версия шаблона автоматически сохраняется в резервную копию.
+```
+Перед заменой текущей версии автоматически создаётся резервная копия шаблона.
 
 🗑️ Удаление
 
 Для удаления шаблона выполните:
 
-<pre>
+```
 bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/uninstall.sh)
-</pre>📁 Структура проекта
+```
+📁 Структура проекта
 
 <pre>
 sub-template/
@@ -59,10 +70,6 @@ sub-template/
 ├── install.sh
 ├── sub.html
 └── uninstall.sh
-</pre>📍 Путь к установленному шаблону
-
-<pre>
-/etc/3x-ui/sub_templates/xv/sub.html
 </pre>📋 Требования
 
 - Sanaei / 3x-ui
@@ -72,6 +79,6 @@ sub-template/
 
 ---
 
-🛡️ XV | Subscription Template
+🛡️ XV Subscription Template
 
-Кастомный шаблон страницы подписки для Sanaei / 3x-ui.
+Кастомный HTML-шаблон страницы подписки для Sanaei / 3x-ui.
