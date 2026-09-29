@@ -1,6 +1,6 @@
 📌 قالب صفحه اشتراک Sanaei / 3x-ui
 
-<a href="README.md">
+<div align="center"><a href="README.md">
   <img src="https://flagcdn.com/24x18/ir.png" width="24"> فارسی
 </a>
 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -10,11 +10,7 @@
 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="README.ru.md">
   <img src="https://flagcdn.com/24x18/ru.png" width="24"> Русский
-</a>
-
-
-
-<br>یک قالب HTML سفارشی برای صفحه اشتراک Sanaei / 3x-ui که با هدف نصب سریع و مدیریت ساده طراحی شده است.
+</a></div><br>یک قالب HTML سفارشی برای صفحه اشتراک Sanaei / 3x-ui که با هدف نصب سریع و مدیریت ساده طراحی شده است.
 
 ✨ امکانات
 
