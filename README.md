@@ -1,9 +1,14 @@
 📌 قالب اشتراک Sanaei / 3x-ui
 
-<a href="README.md">🇮🇷 فارسی</a> |
-<a href="README.en.md">🇬🇧 English</a> |
-<a href="README.ru.md">🇷🇺 Русский</a>
-
+<a href="README.md">
+  <img src="https://flagcdn.com/24x18/ir.png" width="24"> فارسی
+</a> |
+<a href="README.en.md">
+  <img src="https://flagcdn.com/24x18/gb.png" width="24"> English
+</a> |
+<a href="README.ru.md">
+  <img src="https://flagcdn.com/24x18/ru.png" width="24"> Русский
+</a>
 قالب HTML سفارشی برای صفحه اشتراک پنل Sanaei / 3x-ui.
 
 ✨ امکانات
