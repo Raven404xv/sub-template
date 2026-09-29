@@ -1,18 +1,28 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-INSTALL_DIR="/etc/3x-ui/sub_templates/xvpn"
+INSTALL_DIR="/etc/3x-ui/sub_templates/xv"
 
 if [[ "${EUID}" -ne 0 ]]; then
-  echo "[ERROR] با root اجرا کنید."
-  exit 1
+    echo "[ERROR] Please run as root."
+    exit 1
 fi
 
-if [[ ! -d "${INSTALL_DIR}" ]]; then
-  echo "[INFO] تم نصب نشده یا مسیر وجود ندارد: ${INSTALL_DIR}"
-  exit 0
+if [[ ! -d "$INSTALL_DIR" ]]; then
+    echo "[INFO] Template is not installed."
+    exit 0
 fi
 
-rm -rf "${INSTALL_DIR}"
-echo "[OK] تم XVPN حذف شد: ${INSTALL_DIR}"
-echo "اگر در پنل Sub Theme Directory تنظیم شده، آن مقدار را نیز پاک کنید یا به تم دیگری تغییر دهید."
+rm -rf "$INSTALL_DIR"
+
+echo
+echo "=========================================="
+echo "       TEMPLATE REMOVED"
+echo "=========================================="
+echo
+echo "Removed:"
+echo "$INSTALL_DIR"
+echo
+echo "If this path is configured in Sanaei,"
+echo "remove it from Sub Theme Directory."
+echo
