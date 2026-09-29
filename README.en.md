@@ -39,25 +39,28 @@ After installation, open the Sanaei / 3x-ui panel and go to:
 Settings → Subscription → Information
 </pre>In the Sub Theme Directory field, enter:
 
-<pre>
+```
 /etc/3x-ui/sub_templates/xv/
-</pre>Save the settings when finished.
+```
+Save the settings when finished.
 
 🔄 Update
 
 To update the template and get the latest version, run the installation command again:
 
-<pre>
+```
 bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh)
-</pre>The current template is automatically backed up before the new version is installed.
+```
+The current template is automatically backed up before the new version is installed.
 
 🗑️ Uninstall
 
 To remove the template, run:
 
-<pre>
+```
 bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/uninstall.sh)
-</pre>📁 Project Structure
+```
+📁 Project Structure
 
 <pre>
 sub-template/
