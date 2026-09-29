@@ -1,31 +1,28 @@
-📌 قالب اشتراک Sanaei / 3x-ui
+📌 Sanaei / 3x-ui Subscription Template
 
-<p align="center">
-  <a href="README.md">
-    <img src="https://flagcdn.com/24x18/ir.png" width="24" alt="فارسی"> فارسی
-  </a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="README.en.md">
-    <img src="https://flagcdn.com/24x18/gb.png" width="24" alt="English"> English
-  </a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="README.ru.md">
-    <img src="https://flagcdn.com/24x18/ru.png" width="24" alt="Русский"> Русский
-  </a>
-</p>قالب HTML سفارشی برای صفحه اشتراک پنل Sanaei / 3x-ui.
+<a href="README.md">
+  <img src="https://flagcdn.com/24x18/ir.png" width="24"> فارسی
+</a>
+&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="README.en.md">
+  <img src="https://flagcdn.com/24x18/gb.png" width="24"> English
+</a>
+&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="README.ru.md">
+  <img src="https://flagcdn.com/24x18/ru.png" width="24"> Русский
+</a>یک قالب HTML سفارشی برای صفحه اشتراک Sanaei / 3x-ui با نصب، بروزرسانی و حذف ساده.
 
 ✨ امکانات
 
-- 🎨 صفحه اشتراک سفارشی
+- 🎨 طراحی سفارشی صفحه اشتراک
 - ⚙️ سازگار با Sanaei / 3x-ui
-- 🚀 نصب با یک دستور
-- 💾 بکاپ خودکار از قالب قبلی
-- 🔄 آپدیت ساده
-- 🗑️ حذف ساده
+- 🚀 نصب و بروزرسانی با یک دستور
+- 💾 بکاپ خودکار قبل از بروزرسانی
+- 🗑️ حذف آسان
 
 🚀 نصب
 
-برای نصب قالب، دستور زیر را روی سرور اجرا کنید:
+دستور زیر را روی سرور اجرا کنید:
 
 <pre>
 bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh)
@@ -33,9 +30,9 @@ bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/m
 
 <pre>
 /etc/3x-ui/sub_templates/xv/
-</pre>⚙️ تنظیم در پنل
+</pre>⚙️ فعال‌سازی
 
-بعد از نصب، وارد پنل Sanaei / 3x-ui شوید و به مسیر زیر بروید:
+در پنل Sanaei / 3x-ui به مسیر زیر بروید:
 
 <pre>
 Settings → Subscription → Information
@@ -43,19 +40,19 @@ Settings → Subscription → Information
 
 <pre>
 /etc/3x-ui/sub_templates/xv/
-</pre>سپس روی Save بزنید.
+</pre>سپس تنظیمات را ذخیره کنید.
 
-🔄 آپدیت
+🔄 بروزرسانی
 
-برای دریافت آخرین نسخه قالب، همان دستور نصب را دوباره اجرا کنید:
+برای بروزرسانی قالب، همان دستور نصب را دوباره اجرا کنید:
 
 <pre>
 bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh)
-</pre>نسخه قبلی قالب قبل از جایگزینی به صورت خودکار بکاپ گرفته می‌شود.
+</pre>قبل از جایگزینی، نسخه فعلی قالب به صورت خودکار بکاپ می‌شود.
 
 🗑️ حذف
 
-برای حذف قالب:
+برای حذف قالب، دستور زیر را اجرا کنید:
 
 <pre>
 bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/uninstall.sh)
@@ -69,19 +66,14 @@ sub-template/
 ├── install.sh
 ├── sub.html
 └── uninstall.sh
-</pre>📍 مسیر نهایی قالب
-
-<pre>
-/etc/3x-ui/sub_templates/xv/sub.html
-</pre>📋 نیازمندی‌ها
+</pre>📋 پیش‌نیازها
 
 - Sanaei / 3x-ui
-- Linux Server
+- Linux
 - دسترسی Root
 - curl
 
 ---
 
-🛡️ XV | Subscription Template
-
+XV Subscription Template
 قالب سفارشی صفحه اشتراک برای Sanaei / 3x-ui.
