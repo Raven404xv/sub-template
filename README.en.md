@@ -1,4 +1,4 @@
-📌 Sanaei / 3x-ui Subscription Template
+📌 Sanaei / 3x-ui Subscription Page Template
 
 <a href="README.md">
   <img src="https://flagcdn.com/24x18/ir.png" width="24"> فارسی
@@ -10,50 +10,45 @@
 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="README.ru.md">
   <img src="https://flagcdn.com/24x18/ru.png" width="24"> Русский
-</a>
-
-
-
-A custom HTML template for the subscription page of Sanaei / 3x-ui.
+</a><br>A custom HTML template for the Sanaei / 3x-ui subscription page, designed for quick installation and simple management.
 
 ✨ Features
 
-- 🎨 Custom subscription page
+- 🎨 Custom subscription page design
 - ⚙️ Compatible with Sanaei / 3x-ui
-- 🚀 One-command installation
-- 💾 Automatic backup of the previous template
-- 🔄 Simple updates
-- 🗑️ Easy removal
+- 🚀 Install and update with one command
+- 💾 Automatic backup before replacing the template
+- 🗑️ Easy template removal
 
 🚀 Installation
 
-Run the following command on your server:
-```
+Run the following command on your server to install the template:
+
 <pre>
 bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh)
-</pre>The template will be installed to:
-```
+</pre>After installation, the template will be located at:
+
 <pre>
 /etc/3x-ui/sub_templates/xv/
-</pre>⚙️ Panel Configuration
+</pre>⚙️ Enable the Template
 
-After installation, open Sanaei / 3x-ui and go to:
+After installation, open the Sanaei / 3x-ui panel and go to:
 
 <pre>
 Settings → Subscription → Information
-</pre>Enter the following path in Sub Theme Directory:
+</pre>In the Sub Theme Directory field, enter:
 
 <pre>
 /etc/3x-ui/sub_templates/xv/
-</pre>Then click Save.
+</pre>Save the settings when finished.
 
 🔄 Update
 
-To install the latest version, run the installation command again:
+To update the template and get the latest version, run the installation command again:
 
 <pre>
 bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh)
-</pre>The previous template is automatically backed up before being replaced.
+</pre>The current template is automatically backed up before the new version is installed.
 
 🗑️ Uninstall
 
@@ -71,10 +66,6 @@ sub-template/
 ├── install.sh
 ├── sub.html
 └── uninstall.sh
-</pre>📍 Final Template Path
-
-<pre>
-/etc/3x-ui/sub_templates/xv/sub.html
 </pre>📋 Requirements
 
 - Sanaei / 3x-ui
@@ -84,6 +75,6 @@ sub-template/
 
 ---
 
-🛡️ XV | Subscription Template
+🛡️ XV Subscription Template
 
-A custom subscription page template for Sanaei / 3x-ui.
+A custom HTML subscription page template for Sanaei / 3x-ui.
