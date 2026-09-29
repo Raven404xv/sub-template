@@ -1,18 +1,18 @@
 📌 قالب اشتراک Sanaei / 3x-ui
 
-<a href="README.md">
-  <img src="https://flagcdn.com/24x18/ir.png" width="24"> فارسی
-</a>
-&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="README.en.md">
-  <img src="https://flagcdn.com/24x18/gb.png" width="24"> English
-</a>
-&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="README.ru.md">
-  <img src="https://flagcdn.com/24x18/ru.png" width="24"> Русский
-</a>
-
-قالب HTML سفارشی برای صفحه اشتراک پنل Sanaei / 3x-ui.
+<p align="center">
+  <a href="README.md">
+    <img src="https://flagcdn.com/24x18/ir.png" width="24" alt="فارسی"> فارسی
+  </a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="README.en.md">
+    <img src="https://flagcdn.com/24x18/gb.png" width="24" alt="English"> English
+  </a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="README.ru.md">
+    <img src="https://flagcdn.com/24x18/ru.png" width="24" alt="Русский"> Русский
+  </a>
+</p>قالب HTML سفارشی برای صفحه اشتراک پنل Sanaei / 3x-ui.
 
 ✨ امکانات
 
@@ -39,7 +39,7 @@ bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/m
 
 <pre>
 Settings → Subscription → Information
-</pre>در قسمت Sub Theme Directory این مسیر را وارد کنید:
+</pre>در قسمت Sub Theme Directory مسیر زیر را وارد کنید:
 
 <pre>
 /etc/3x-ui/sub_templates/xv/
@@ -51,11 +51,11 @@ Settings → Subscription → Information
 
 <pre>
 bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh)
-</pre>قبل از جایگزینی نسخه جدید، قالب قبلی به صورت خودکار بکاپ گرفته می‌شود.
+</pre>نسخه قبلی قالب قبل از جایگزینی به صورت خودکار بکاپ گرفته می‌شود.
 
 🗑️ حذف
 
-برای حذف قالب، دستور زیر را اجرا کنید:
+برای حذف قالب:
 
 <pre>
 bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/uninstall.sh)
