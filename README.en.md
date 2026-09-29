@@ -1,5 +1,6 @@
 📌 Sanaei / 3x-ui Subscription Page Template
 
+
 <a href="README.md">
   <img src="https://flagcdn.com/24x18/ir.png" width="24"> فارسی
 </a>
@@ -10,7 +11,8 @@
 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="README.ru.md">
   <img src="https://flagcdn.com/24x18/ru.png" width="24"> Русский
-</a><br>A custom HTML template for the Sanaei / 3x-ui subscription page, designed for quick installation and simple management.
+</a><br>
+A custom HTML template for the Sanaei / 3x-ui subscription page, designed for quick installation and simple management.
 
 ✨ Features
 
