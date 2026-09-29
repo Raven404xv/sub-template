@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="preview/desktop.png" width="900">
+</p>
+
+<h1 align="center">XVPN Sanaei Subscription Template</h1>
+
+<p align="center">
+  Modern • Responsive • RTL • Mobile Friendly
+</p>
+
+
 📌 قالب صفحه اشتراک Sanaei / 3x-ui
 
 <a href="README.md">
