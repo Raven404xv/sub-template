@@ -58,9 +58,9 @@ sub-template/
 📍 مسیر نصب نهایی
 
 فایل قالب پس از نصب در مسیر زیر قرار می‌گیرد:
-
+```
 /etc/3x-ui/sub_templates/xv/sub.html
-
+```
 📋 نیازمندی‌ها
 
 - Sanaei / 3x-ui
