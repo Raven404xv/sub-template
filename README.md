@@ -14,9 +14,9 @@
 🚀 نصب
 
 برای نصب قالب، کافی است دستور زیر را روی سرور اجرا کنید:
-
+```
 bash <(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh)
-
+```
 قالب به صورت خودکار در مسیر زیر نصب می‌شود:
 
 /etc/3x-ui/sub_templates/xv/
@@ -28,25 +28,25 @@ bash <(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main
 Settings → Subscription → Information
 
 سپس در قسمت Sub Theme Directory مسیر زیر را وارد کنید:
-
+```
 /etc/3x-ui/sub_templates/xv/
-
+```
 در نهایت روی Save کلیک کنید.
 
 🔄 آپدیت
 
 برای دریافت آخرین نسخه قالب، کافی است همان دستور نصب را دوباره اجرا کنید:
-
+```
 bash <(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh)
-
+```
 قبل از جایگزین شدن نسخه جدید، نسخه قبلی قالب به صورت خودکار بکاپ گرفته می‌شود.
 
 🗑️ حذف
 
 برای حذف قالب، دستور زیر را اجرا کنید:
-
+```
 bash <(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/uninstall.sh)
-
+```
 📁 ساختار پروژه
 
 sub-template/
