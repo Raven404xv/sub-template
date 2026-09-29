@@ -1,67 +1,69 @@
 📌 قالب اشتراک Sanaei / 3x-ui
 
-یک قالب HTML سفارشی برای صفحه اشتراک پنل Sanaei / 3x-ui با نصب و مدیریت ساده.
+🇮🇷 فارسی   |   "🇬🇧 English" (README.en.md)   |   "🇷🇺 Русский" (README.ru.md)
+
+قالب HTML سفارشی برای صفحه اشتراک پنل Sanaei / 3x-ui.
 
 ✨ امکانات
 
-- 🎨 صفحه اشتراک با طراحی سفارشی
+- 🎨 صفحه اشتراک سفارشی
 - ⚙️ سازگار با Sanaei / 3x-ui
 - 🚀 نصب با یک دستور
 - 💾 بکاپ خودکار از قالب قبلی
-- 🔄 امکان آپدیت ساده
-- 🗑️ امکان حذف قالب
+- 🔄 آپدیت ساده
+- 🗑️ حذف ساده
 
 🚀 نصب
 
-برای نصب قالب، کافی است دستور زیر را روی سرور اجرا کنید:
-```
-bash <(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh)
-```
-قالب به صورت خودکار در مسیر زیر نصب می‌شود:
+برای نصب قالب، دستور زیر را روی سرور اجرا کنید:
 
+<pre>
+bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh)
+</pre>قالب در مسیر زیر نصب می‌شود:
+
+<pre>
 /etc/3x-ui/sub_templates/xv/
+</pre>⚙️ تنظیم در پنل
 
-⚙️ تنظیم قالب در پنل
+بعد از نصب، وارد پنل Sanaei / 3x-ui شوید و به مسیر زیر بروید:
 
-بعد از نصب، وارد پنل 3x-ui شوید و به مسیر زیر بروید:
-
+<pre>
 Settings → Subscription → Information
+</pre>در قسمت Sub Theme Directory این مسیر را وارد کنید:
 
-سپس در قسمت Sub Theme Directory مسیر زیر را وارد کنید:
-```
+<pre>
 /etc/3x-ui/sub_templates/xv/
-```
-در نهایت روی Save کلیک کنید.
+</pre>سپس روی Save بزنید.
 
 🔄 آپدیت
 
-برای دریافت آخرین نسخه قالب، کافی است همان دستور نصب را دوباره اجرا کنید:
-```
-bash <(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh)
-```
-قبل از جایگزین شدن نسخه جدید، نسخه قبلی قالب به صورت خودکار بکاپ گرفته می‌شود.
+برای دریافت آخرین نسخه قالب، همان دستور نصب را دوباره اجرا کنید:
+
+<pre>
+bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh)
+</pre>قبل از جایگزینی نسخه جدید، قالب قبلی به صورت خودکار بکاپ گرفته می‌شود.
 
 🗑️ حذف
 
 برای حذف قالب، دستور زیر را اجرا کنید:
-```
-bash <(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/uninstall.sh)
-```
-📁 ساختار پروژه
 
+<pre>
+bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/uninstall.sh)
+</pre>📁 ساختار پروژه
+
+<pre>
 sub-template/
 ├── README.md
+├── README.en.md
+├── README.ru.md
 ├── install.sh
 ├── sub.html
 └── uninstall.sh
+</pre>📍 مسیر نهایی قالب
 
-📍 مسیر نصب نهایی
-
-فایل قالب پس از نصب در مسیر زیر قرار می‌گیرد:
-```
+<pre>
 /etc/3x-ui/sub_templates/xv/sub.html
-```
-📋 نیازمندی‌ها
+</pre>📋 نیازمندی‌ها
 
 - Sanaei / 3x-ui
 - Linux Server
@@ -72,4 +74,4 @@ sub-template/
 
 🛡️ XV | Subscription Template
 
-قالب سفارشی صفحه اشتراک برای Sanaei / 3x-ui
+قالب سفارشی صفحه اشتراک برای Sanaei / 3x-ui.
