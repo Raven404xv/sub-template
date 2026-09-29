@@ -23,11 +23,11 @@
 🚀 Installation
 
 Run the following command on your server to install the template:
+
 ```
-<pre>
 bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh)
-</pre>After installation, the template will be located at:
-```
+``` After installation, the template will be located at:
+
 <pre>
 /etc/3x-ui/sub_templates/xv/
 </pre>⚙️ Enable the Template
