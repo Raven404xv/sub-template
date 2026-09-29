@@ -1,6 +1,6 @@
 📌 Sanaei / 3x-ui Subscription Template
 
-[🇮🇷 فارسی](README.md) &nbsp; | &nbsp; 🇬🇧 English &nbsp; | &nbsp; [🇷🇺 Русский](README.ru.md)
+🇮🇷 [فارسی](README.md) | 🇬🇧 [English](README.en.md) | 🇷🇺 [Русский](README.ru.md)
 
 A custom HTML template for the subscription page of Sanaei / 3x-ui.
 
