@@ -1,6 +1,8 @@
 📌 قالب اشتراک Sanaei / 3x-ui
 
-🇮🇷 فارسی &nbsp; | &nbsp; [🇬🇧 English](README.en.md) &nbsp; | &nbsp; [🇷🇺 Русский](README.ru.md)
+<a href="README.md">🇮🇷 فارسی</a> |
+<a href="README.en.md">🇬🇧 English</a> |
+<a href="README.ru.md">🇷🇺 Русский</a>
 
 قالب HTML سفارشی برای صفحه اشتراک پنل Sanaei / 3x-ui.
 
