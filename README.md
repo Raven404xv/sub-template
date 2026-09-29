@@ -10,7 +10,8 @@
 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="README.ru.md">
   <img src="https://flagcdn.com/24x18/ru.png" width="24"> Русский
-</a>یک قالب HTML سفارشی برای صفحه اشتراک Sanaei / 3x-ui با نصب، بروزرسانی و حذف ساده.
+</a>
+یک قالب HTML سفارشی برای صفحه اشتراک Sanaei / 3x-ui با نصب، بروزرسانی و حذف ساده.
 
 ✨ امکانات
 
