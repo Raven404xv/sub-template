@@ -6,7 +6,9 @@ DIR="/etc/3x-ui/sub_templates/xv"
 FILE="$DIR/sub.html"
 
 [[ $EUID -eq 0 ]] || {
-    echo "✖ Error: Root access required."
+    echo
+    echo "✖ ERROR: Root access required."
+    echo
     exit 1
 }
 
@@ -19,19 +21,25 @@ if curl -fsSL "$URL" -o /tmp/sub.html; then
         rm -f /tmp/sub.html
 
         echo
-        echo "╔══════════════════════════════════════╗"
-        echo "║      ✓ TEMPLATE INSTALLED           ║"
-        echo "╚══════════════════════════════════════╝"
+        echo "=========================================="
+        echo "       ✓ TEMPLATE INSTALLED"
+        echo "=========================================="
         echo
         echo "  Location:"
         echo "  $FILE"
         echo
+        echo "  Status: Ready"
+        echo
     else
-        echo "✖ Error: Invalid template file."
+        echo
+        echo "✖ ERROR: Invalid template file."
+        echo
         rm -f /tmp/sub.html
         exit 1
     fi
 else
-    echo "✖ Error: Download failed."
+    echo
+    echo "✖ ERROR: Download failed."
+    echo
     exit 1
 fi
