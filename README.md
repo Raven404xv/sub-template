@@ -1,5 +1,13 @@
 📌 قالب صفحه اشتراک Sanaei / 3x-ui
 
+
+<p align="center">
+  <img src="assets/preview-top.jpg" width="250">
+  <img src="assets/preview-middle.jpg" width="250">
+  <img src="assets/preview-bottom.jpg" width="250">
+</p>
+
+
 <a href="README.md">
   <img src="https://flagcdn.com/24x18/ir.png" width="24"> فارسی
 </a>
