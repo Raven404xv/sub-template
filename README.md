@@ -2,9 +2,9 @@
 
 
 <p align="center">
-  <img src="assets/preview-top.jpg" width="250">
-  <img src="assets/preview-middle.jpg" width="250">
-  <img src="assets/preview-bottom.jpg" width="250">
+  <img src="preview-top.jpg" width="250">
+  <img src="preview-middle.jpg" width="250">
+  <img src="preview-bottom.jpg" width="250">
 </p>
 
 
