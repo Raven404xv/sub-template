@@ -37,7 +37,7 @@
 برای نصب قالب، دستور زیر را روی سرور اجرا کنید:
 
 ```
-bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh)
+curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh | bash
 ```
 قالب پس از نصب در مسیر زیر قرار می‌گیرد:
 
@@ -61,7 +61,7 @@ Settings → Subscription → Information
 برای بروزرسانی قالب و دریافت آخرین نسخه، همان دستور نصب را دوباره اجرا کنید:
 
 ```
-bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh)
+curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/install.sh | bash
 ```
 پیش از جایگزینی نسخه جدید، از قالب فعلی به صورت خودکار بکاپ گرفته می‌شود.
 
@@ -70,7 +70,7 @@ bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/m
 برای حذف قالب، دستور زیر را اجرا کنید:
 
 ```
-bash &lt;(curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/uninstall.sh)
+curl -fsSL https://raw.githubusercontent.com/Raven404xv/sub-template/main/uninstall.sh | bash
 ```
 📁 ساختار پروژه
 
